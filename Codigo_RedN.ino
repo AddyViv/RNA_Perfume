@@ -1,9 +1,4 @@
 
-/********************************************************************
- * BLUETOOTH
- ********************************************************************/
-
-
 #include <math.h>
 #include <SoftwareSerial.h>
 #define TxD 11
@@ -14,7 +9,7 @@
 SoftwareSerial Blue(TxD,RxD);
 
 /********************************************************************
- * Configuración de las entradas analógicas para los Sensores de GasOLINA
+ * Configuración de las entradas analógicas para los Sensores MQ
  ********************************************************************/
 
 int valor=0;
@@ -112,8 +107,6 @@ if(salida[2]>0.8)
   delay(1000);
   
 }
-
-
 
 /**********************************************************************************
  * Algoritmo de la Red Neuonal 
